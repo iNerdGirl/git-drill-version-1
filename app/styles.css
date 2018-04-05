@@ -10,10 +10,15 @@ h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
   color: orange;
+  padding-left: 1rem;
+  display: inline-block;
+  background-color: pink;
 }
 
 nav {
   grid-column: 5/ span 2;
+  height: 300px;
+  width: 100%;
 }
 
 nav a {
